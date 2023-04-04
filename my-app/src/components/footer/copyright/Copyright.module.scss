@@ -3,7 +3,7 @@
 .box {
     margin-top: 33px;
     margin-bottom: 20px;
-    @media (max-width: 375px) {
+    @media (max-width: 500px) {
       margin-top: 40px;
     }
     .text {
@@ -14,7 +14,7 @@
       font-size: 12px;
       line-height: 15px;
       text-align: right;
-      @media (max-width: 375px) {
+      @media (max-width: 500px) {
         text-align: left;
       }
     }

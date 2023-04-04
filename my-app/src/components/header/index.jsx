@@ -14,9 +14,6 @@ export const Header = () => {
         <Logotype />
         <MenuHeader/>
         <Phone />
-        {/* <div>
-          <p className={style.text_phone}>+7 555 555-55-55</p>
-        </div> */}
         <div className={style.contacts}>
           <Message />
           <PhoneSvg />

@@ -38,7 +38,7 @@
     .item {
       display: block;
       margin-right: 1.8rem;
-      @media (max-width: 375px) {
+      @media (max-width: 500px) {
         margin-right: 0;
         font-family: $fontFamilyInter;
         font-style: normal;

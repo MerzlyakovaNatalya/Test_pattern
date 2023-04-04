@@ -10,20 +10,31 @@
   @media (max-width: 900px) {
     flex-wrap: wrap;
   }
-  @media (max-width: 375px) {
-    flex-wrap: wrap;
+  @media (max-width: 500px) {
+    padding-top: 40px;
+    padding-bottom: 42px;
+    background-size: 370px 450px;
   }
-  @media (max-width: 320px) {
-    // background-image: url("../../image/purpleLight.png"),
-    //   url("../../image/noise.png");
+  @media (max-width: 420px) {
     background: url("../../image/purpleLight.png") 0px 0px no-repeat,
       url("../../image/redLightMobile.png") 0px 0px no-repeat,
       url("../../image/noise.png") 0px 0px no-repeat,
-      url("../../image/redBallBig.png") 0px 380px no-repeat,
+      // url("../../image/redBallBig.png") 0px 380px no-repeat,
       url("../../image/purpleBallRight.png") 282px 220px no-repeat,
       url("../../image/glass.png") 0px 0px no-repeat;
-    padding-top: 40px;
-    padding-bottom: 42px;
+    background-size: 420px 475px;
+  }
+  @media (max-width: 390px) {
+    background-size: 390px 480px;
+  }
+  @media (max-width: 375px) {
+    background-size: 376px 450px;
+  }
+  @media (max-width: 344px) {
+    background-size: 345px 450px;
+  }
+  @media (max-width: 320px) {
+    background-size: auto auto;
   }
 
   .title {
@@ -58,8 +69,6 @@
     margin: 0;
     @media (max-width: 500px) {
       margin-left: 14px;
-    }
-    @media (max-width: 375px) {
       font-size: 36px;
       line-height: 44px;
     }
@@ -69,8 +78,6 @@
     margin-top: 1.8rem;
     @media (max-width: 500px) {
       margin-left: 14px;
-    }
-    @media (max-width: 375px) {
       font-family: $fontFamilyMontserrat;
       margin: 10px 35px 45px 14px;
       font-weight: 400;
@@ -84,7 +91,7 @@
     flex-direction: column;
     align-items: flex-end;
     background: url("../../image/redBall_min.png") 290px 325px no-repeat;
-    @media (max-width: 375px) {
+    @media (max-width: 500px) {
       align-items: flex-start;
       margin-left: 14px;
     }
@@ -102,7 +109,7 @@
       -webkit-text-fill-color: #fff;
       margin-bottom: 2.5rem;
       margin-top: 0;
-      @media (max-width: 375px) {
+      @media (max-width: 500px) {
         font-size: 16px;
         line-height: 22px;
         text-align: left;
@@ -116,7 +123,7 @@
         text-transform: uppercase;
         -webkit-text-fill-color: transparent;
         font-weight: bold;
-        @media (max-width: 375px) {
+        @media (max-width: 500px) {
           text-align: left;
         }
       }
@@ -135,7 +142,7 @@
       color: #e4e5ea;
       border: 0;
       margin-top: 31px;
-      @media (max-width: 375px) {
+      @media (max-width: 500px) {
         display: none;
       }
     }

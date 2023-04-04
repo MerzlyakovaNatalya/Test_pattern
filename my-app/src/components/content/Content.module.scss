@@ -1,0 +1,143 @@
+@import "../../scss/vars.scss";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1141px;
+  color: $greyColor;
+  margin: 0 auto;
+  max-width: 1141px;
+  @media (max-width: 900px) {
+    flex-wrap: wrap;
+  }
+  @media (max-width: 375px) {
+    flex-wrap: wrap;
+  }
+  @media (max-width: 320px) {
+    // background-image: url("../../image/purpleLight.png"),
+    //   url("../../image/noise.png");
+    background: url("../../image/purpleLight.png") 0px 0px no-repeat,
+      url("../../image/redLightMobile.png") 0px 0px no-repeat,
+      url("../../image/noise.png") 0px 0px no-repeat,
+      url("../../image/redBallBig.png") 0px 380px no-repeat,
+      url("../../image/purpleBallRight.png") 282px 220px no-repeat,
+      url("../../image/glass.png") 0px 0px no-repeat;
+    padding-top: 40px;
+    padding-bottom: 42px;
+  }
+
+  .title {
+    max-width: 2rem;
+    height: 7.25rem;
+    font-family: $fontFamilyInter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    margin: 0;
+    @media (max-width: 500px) {
+      margin-left: 14px;
+      font-size: 36px;
+      line-height: 44px;
+    }
+    @media (max-width: 375px) {
+      height: 88px;
+    }
+  }
+
+  .caption {
+    font-family: $fontFamilyInter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0;
+    @media (max-width: 500px) {
+      margin-left: 14px;
+    }
+    @media (max-width: 375px) {
+      font-size: 36px;
+      line-height: 44px;
+    }
+  }
+
+  .subtitle {
+    margin-top: 1.8rem;
+    @media (max-width: 500px) {
+      margin-left: 14px;
+    }
+    @media (max-width: 375px) {
+      font-family: $fontFamilyMontserrat;
+      margin: 10px 35px 45px 14px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background: url("../../image/redBall_min.png") 290px 325px no-repeat;
+    @media (max-width: 375px) {
+      align-items: flex-start;
+      margin-left: 14px;
+    }
+
+    .wrap_heading {
+      font-family: $fontFamilyInter;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: right;
+      background-image: linear-gradient(90deg, #fe4, #a00);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: #fff;
+      margin-bottom: 2.5rem;
+      margin-top: 0;
+      @media (max-width: 375px) {
+        font-size: 16px;
+        line-height: 22px;
+        text-align: left;
+        margin-bottom: 20px;
+      }
+
+      .text_span {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+        @media (max-width: 375px) {
+          text-align: left;
+        }
+      }
+    }
+
+    .button {
+      width: 262px;
+      height: 61px;
+      background: #4077f3;
+      font-family: $fontFamilyInter;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 19px;
+      text-align: center;
+      color: #e4e5ea;
+      border: 0;
+      margin-top: 31px;
+      @media (max-width: 375px) {
+        display: none;
+      }
+    }
+  }
+}

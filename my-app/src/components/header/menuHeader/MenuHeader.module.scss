@@ -1,0 +1,51 @@
+@import "../../../scss/vars.scss";
+
+.list {
+    display: flex;
+    list-style-type: none;
+    margin-right: 8.5rem;
+    margin-top: 0;
+    padding-left: 0;
+    background: url("../../../image/redBall.png") 139px 18px no-repeat;
+    padding-bottom: 110px;
+    @media (max-width: 1100px) {
+      margin-right: 20px;
+    }
+    @media (max-width: 500px) {
+      display: none;
+    }
+
+    .item {
+      margin-right: 1.8rem;
+    }
+  }
+
+  .list_mobile {
+    display: none;
+    @media (max-width: 500px) {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      list-style-type: none;
+      background: #1e1e1e;
+      padding: 20px 0 20px 0;
+      margin: 0;
+    }
+    @media (max-width: 375px) {
+      width: 375px;
+    }
+
+    .item {
+      display: block;
+      margin-right: 1.8rem;
+      @media (max-width: 375px) {
+        margin-right: 0;
+        font-family: $fontFamilyInter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+      }
+    }
+  }

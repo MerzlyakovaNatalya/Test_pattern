@@ -1,0 +1,28 @@
+@import "../../../../scss/vars.scss";
+
+.wrapper_text {
+    flex-basis: 41%;
+
+    .subject {
+      font-family: $fontFamilyInter;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: right;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .text {
+      font-family: $fontFamilyMontserrat;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 20px;
+      text-align: right;
+      margin-top: 6px;
+      margin-bottom: 30px;
+    }
+  }

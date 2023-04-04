@@ -1,0 +1,21 @@
+@import "../../../scss/vars.scss";
+
+.box {
+    margin-top: 33px;
+    margin-bottom: 20px;
+    @media (max-width: 375px) {
+      margin-top: 40px;
+    }
+    .text {
+      margin: 0;
+      font-family: $fontFamilyMontserrat;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: right;
+      @media (max-width: 375px) {
+        text-align: left;
+      }
+    }
+  }

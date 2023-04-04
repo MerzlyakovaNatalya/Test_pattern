@@ -1,0 +1,61 @@
+@import "../../../scss/vars.scss";
+
+.wrap_menu {
+    margin-right: 52px;
+      .title {
+        font-family: $fontFamilyInter;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #656566;
+        @media (max-width: 375px) {
+            display: none;
+          }
+      }
+
+      .items {
+        padding-left: 0;
+
+        .item {
+          list-style-type: none;
+          font-family: $fontFamilyInter;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1rem;
+          line-height: 19px;
+          padding-bottom: 10px;
+          @media (max-width: 375px) {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+          }
+        }
+      }
+  }
+
+  .list {
+    margin-right: 9rem;
+    padding-top: 32px;
+    padding-left: 0;
+    @media (max-width: 375px) {
+      display: none;
+    }
+
+    .item {
+      list-style-type: none;
+      font-family: $fontFamilyInter;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 19px;
+      padding-bottom: 10px;
+      @media (max-width: 375px) {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
+  }

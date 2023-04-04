@@ -1,0 +1,25 @@
+.App {
+  width: 100%;
+  height: 100%;
+  background-color: #0e1014;
+}
+
+.content {
+  margin: 0 auto;
+  background: url("./image/redLight.png") 0px 50px no-repeat;
+}
+
+@media screen and (max-width: 1150px) {
+  .content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content {
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+  }
+}

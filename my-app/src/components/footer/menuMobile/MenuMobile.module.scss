@@ -1,0 +1,42 @@
+@import "../../../scss/vars.scss";
+
+.wrap_menu_mobile {
+    display: none;
+    @media (max-width: 375px) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .title_mobile {
+      width: 100%;
+      font-family: $fontFamilyInter;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #656566;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+
+    .list_mobile {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      .item_mobile {
+        list-style-type: none;
+        flex-basis: 34%;
+        margin-right: 48px;
+        margin-bottom: 10px;
+        @media (max-width: 320px) {
+          flex-basis: 0;
+          width: 118px;
+          margin-right: 20px;
+          flex-basis: 39%;
+        }
+      }
+    }
+  }
